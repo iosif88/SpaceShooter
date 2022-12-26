@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let fuktion = funktion()
+    let fuktion = function()
    
     @IBOutlet weak var battleLabel: UILabel!
     @IBOutlet weak var exitButtonView: UIImageView!
@@ -22,22 +22,36 @@ class ViewController: UIViewController {
         
         let playVC = storyboard?.instantiateViewController(withIdentifier: "game_vc") as! GameViewController
         playVC.modalPresentationStyle = .fullScreen
-        present(playVC, animated: true)
+        present(playVC, animated: false)
         
     }
     @IBAction func settingsButton(_ sender: Any) {
         fuktion.buttonPressed(senderView: settingsButtonView)
+        
+        let settingsVC = storyboard?.instantiateViewController(withIdentifier: "setting_vc") as! SettingsController
+        settingsVC.modalPresentationStyle = .fullScreen
+        present(settingsVC, animated: false)
     }
+    
     @IBAction func RecordsButton(_ sender: Any) {
         fuktion.buttonPressed(senderView: recordsButtonView)
+        
+        let recordsVC = storyboard?.instantiateViewController(withIdentifier: "recordsVC") as! ThourviewController
+        recordsVC.modalPresentationStyle = .fullScreen
+        present(recordsVC, animated: false)
+        
+        
     }
     @IBAction func ExitButton(_ sender: Any) {
         fuktion.buttonPressed(senderView: exitButtonView)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
+        //playSound()
+        playMusic()
+        let settingsVC = storyboard?.instantiateViewController(withIdentifier: "setting_vc") as! SettingsController
+        settingsVC.modalPresentationStyle = .fullScreen
+        present(settingsVC, animated: false)
         
     }
 

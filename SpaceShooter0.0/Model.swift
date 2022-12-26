@@ -8,7 +8,12 @@
 import Foundation
 import UIKit
 
-class funktion  {
+class function  {
+    
+    
+    @IBAction func remuveButton(_ sender: Any) {
+        
+    }
     
     
     func buttonPressed(senderView:UIImageView) {
@@ -25,9 +30,11 @@ class funktion  {
         
         let positionX = ((view.frame.maxX / 2) - 50)
         let positionY = ((view.frame.maxY / 2) - 50) * 1.7
-
+        
         return CGRect(x: positionX, y: positionY, width: view.frame.width / 4, height: view.frame.width / 4)
         
     }
+    
+    
+    
 }
-

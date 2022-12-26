@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120348182959F86B006C7B58 /* Background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 120348172959F86B006C7B58 /* Background.mp3 */; };
 		120B8D122908769400A918CF /* Bbbbloxat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 120B8D112908769400A918CF /* Bbbbloxat.ttf */; };
 		123DB0A229058B4500FBC2B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123DB0A129058B4500FBC2B4 /* GameViewController.swift */; };
+		1240DF28292ED3E3002157C5 /* ThourviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1240DF27292ED3E3002157C5 /* ThourviewController.swift */; };
+		125B1A1A2959ED1100A2E6F0 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B1A192959ED1100A2E6F0 /* Audio.swift */; };
 		1286CCF1290480C800E6AAB7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1286CCF0290480C800E6AAB7 /* Model.swift */; };
 		12914572290430E000197B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12914571290430E000197B2A /* AppDelegate.swift */; };
 		12914574290430E000197B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12914573290430E000197B2A /* SceneDelegate.swift */; };
@@ -16,11 +19,15 @@
 		12914579290430E000197B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12914577290430E000197B2A /* Main.storyboard */; };
 		1291457B290430E300197B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1291457A290430E300197B2A /* Assets.xcassets */; };
 		12A17B542905CD0600A00D9A /* LocationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A17B532905CD0600A00D9A /* LocationEnum.swift */; };
+		12E91941292C1ABE001DAC8B /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E91940292C1ABE001DAC8B /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120348172959F86B006C7B58 /* Background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Background.mp3; sourceTree = "<group>"; };
 		120B8D112908769400A918CF /* Bbbbloxat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bbbbloxat.ttf; sourceTree = "<group>"; };
 		123DB0A129058B4500FBC2B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1240DF27292ED3E3002157C5 /* ThourviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThourviewController.swift; sourceTree = "<group>"; };
+		125B1A192959ED1100A2E6F0 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		1286CCF0290480C800E6AAB7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1291456E290430E000197B2A /* SpaceShooter0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShooter0.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12914571290430E000197B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +38,7 @@
 		1291457D290430E300197B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1291457F290430E300197B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A17B532905CD0600A00D9A /* LocationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationEnum.swift; sourceTree = "<group>"; };
+		12E91940292C1ABE001DAC8B /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120348162959F823006C7B58 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				120348172959F86B006C7B58 /* Background.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		120B8D10290875CB00A918CF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +91,14 @@
 				12914573290430E000197B2A /* SceneDelegate.swift */,
 				12914575290430E000197B2A /* ViewController.swift */,
 				123DB0A129058B4500FBC2B4 /* GameViewController.swift */,
+				12E91940292C1ABE001DAC8B /* SettingsController.swift */,
+				1240DF27292ED3E3002157C5 /* ThourviewController.swift */,
 				12A17B532905CD0600A00D9A /* LocationEnum.swift */,
 				1286CCF0290480C800E6AAB7 /* Model.swift */,
+				125B1A192959ED1100A2E6F0 /* Audio.swift */,
 				12914577290430E000197B2A /* Main.storyboard */,
 				1291457A290430E300197B2A /* Assets.xcassets */,
+				120348162959F823006C7B58 /* Music */,
 				120B8D10290875CB00A918CF /* Fonts */,
 				1291457C290430E300197B2A /* LaunchScreen.storyboard */,
 				1291457F290430E300197B2A /* Info.plist */,
@@ -147,6 +167,7 @@
 				1291457B290430E300197B2A /* Assets.xcassets in Resources */,
 				120B8D122908769400A918CF /* Bbbbloxat.ttf in Resources */,
 				12914579290430E000197B2A /* Main.storyboard in Resources */,
+				120348182959F86B006C7B58 /* Background.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125B1A1A2959ED1100A2E6F0 /* Audio.swift in Sources */,
 				123DB0A229058B4500FBC2B4 /* GameViewController.swift in Sources */,
 				12A17B542905CD0600A00D9A /* LocationEnum.swift in Sources */,
 				12914576290430E000197B2A /* ViewController.swift in Sources */,
+				12E91941292C1ABE001DAC8B /* SettingsController.swift in Sources */,
 				12914572290430E000197B2A /* AppDelegate.swift in Sources */,
+				1240DF28292ED3E3002157C5 /* ThourviewController.swift in Sources */,
 				12914574290430E000197B2A /* SceneDelegate.swift in Sources */,
 				1286CCF1290480C800E6AAB7 /* Model.swift in Sources */,
 			);
